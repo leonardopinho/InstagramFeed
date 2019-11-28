@@ -1,5 +1,6 @@
 import unittest
 import logging
+from main import Main
 
 logging.basicConfig(
     filename="log/test.log",
@@ -13,6 +14,9 @@ logging.basicConfig(
 class FeedTest(unittest.TestCase):
 
     def test_run(self):
+        main = Main()
+        res = main.gettaglist('beach')
+        print(res)
         result = True
         self.assertEquals(True, result)
         logging.debug('Test: {}'.format(result))
