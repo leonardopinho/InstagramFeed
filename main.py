@@ -12,7 +12,7 @@ class Main(object):
         self.opts.add_argument("--headless")
 
         self.browser = webdriver.Chrome(
-            executable_path=r"chromedriver.exe",
+            executable_path=r"./chromedriver.exe",
             options=self.opts
         )
 

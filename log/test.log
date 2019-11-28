@@ -1,20 +1,20 @@
-28-11-2019:14:34:51,988 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58628/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
-28-11-2019:14:34:51,989 DEBUG   [connectionpool.py:205] Starting new HTTP connection (1): 127.0.0.1:58628
-28-11-2019:14:34:53,874 DEBUG   [connectionpool.py:393] http://127.0.0.1:58628 "POST /session HTTP/1.1" 200 830
-28-11-2019:14:34:53,874 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:34:53,874 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58628/session/2ad9358d8e0f1f6c5c3e08c5f586741f/url {"url": "https://www.instagram.com/explore/tags/boobs", "sessionId": "2ad9358d8e0f1f6c5c3e08c5f586741f"}
-28-11-2019:14:34:57,222 DEBUG   [connectionpool.py:393] http://127.0.0.1:58628 "POST /session/2ad9358d8e0f1f6c5c3e08c5f586741f/url HTTP/1.1" 200 72
-28-11-2019:14:34:57,223 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:34:59,224 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58628/session/2ad9358d8e0f1f6c5c3e08c5f586741f/element {"using": "class name", "value": "KC1QD", "sessionId": "2ad9358d8e0f1f6c5c3e08c5f586741f"}
-28-11-2019:14:34:59,235 DEBUG   [connectionpool.py:393] http://127.0.0.1:58628 "POST /session/2ad9358d8e0f1f6c5c3e08c5f586741f/element HTTP/1.1" 200 102
-28-11-2019:14:34:59,235 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:34:59,235 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58628/session/2ad9358d8e0f1f6c5c3e08c5f586741f/element/0.2018624614815281-1/element {"using": "xpath", "value": "//*[@id=\"react-root\"]/section/main/article/div", "id": "0.2018624614815281-1", "sessionId": "2ad9358d8e0f1f6c5c3e08c5f586741f"}
-28-11-2019:14:34:59,249 DEBUG   [connectionpool.py:393] http://127.0.0.1:58628 "POST /session/2ad9358d8e0f1f6c5c3e08c5f586741f/element/0.2018624614815281-1/element HTTP/1.1" 200 102
-28-11-2019:14:34:59,249 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:34:59,249 DEBUG   [remote_connection.py:388] GET http://127.0.0.1:58628/session/2ad9358d8e0f1f6c5c3e08c5f586741f/element/0.2018624614815281-2/attribute/innerHTML {"name": "innerHTML", "id": "0.2018624614815281-2", "sessionId": "2ad9358d8e0f1f6c5c3e08c5f586741f"}
-28-11-2019:14:34:59,257 DEBUG   [connectionpool.py:393] http://127.0.0.1:58628 "GET /session/2ad9358d8e0f1f6c5c3e08c5f586741f/element/0.2018624614815281-2/attribute/innerHTML HTTP/1.1" 200 43911
-28-11-2019:14:34:59,258 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:34:59,265 DEBUG   [remote_connection.py:388] DELETE http://127.0.0.1:58628/session/2ad9358d8e0f1f6c5c3e08c5f586741f/window {"sessionId": "2ad9358d8e0f1f6c5c3e08c5f586741f"}
-28-11-2019:14:34:59,339 DEBUG   [connectionpool.py:393] http://127.0.0.1:58628 "DELETE /session/2ad9358d8e0f1f6c5c3e08c5f586741f/window HTTP/1.1" 200 72
-28-11-2019:14:34:59,340 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:34:59,340 DEBUG   [FeedTest.py:22] Test: True
+28-11-2019:14:42:10,877 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58879/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+28-11-2019:14:42:10,877 DEBUG   [connectionpool.py:205] Starting new HTTP connection (1): 127.0.0.1:58879
+28-11-2019:14:42:12,432 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "POST /session HTTP/1.1" 200 829
+28-11-2019:14:42:12,432 DEBUG   [remote_connection.py:440] Finished Request
+28-11-2019:14:42:12,433 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58879/session/9fa2895b58237bb13d4acd3bd119401a/url {"url": "https://www.instagram.com/explore/tags/boobs", "sessionId": "9fa2895b58237bb13d4acd3bd119401a"}
+28-11-2019:14:42:15,909 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "POST /session/9fa2895b58237bb13d4acd3bd119401a/url HTTP/1.1" 200 72
+28-11-2019:14:42:15,910 DEBUG   [remote_connection.py:440] Finished Request
+28-11-2019:14:42:17,911 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58879/session/9fa2895b58237bb13d4acd3bd119401a/element {"using": "class name", "value": "KC1QD", "sessionId": "9fa2895b58237bb13d4acd3bd119401a"}
+28-11-2019:14:42:17,927 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "POST /session/9fa2895b58237bb13d4acd3bd119401a/element HTTP/1.1" 200 103
+28-11-2019:14:42:17,927 DEBUG   [remote_connection.py:440] Finished Request
+28-11-2019:14:42:17,928 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58879/session/9fa2895b58237bb13d4acd3bd119401a/element/0.11142871263185428-1/element {"using": "xpath", "value": "//*[@id=\"react-root\"]/section/main/article/div", "id": "0.11142871263185428-1", "sessionId": "9fa2895b58237bb13d4acd3bd119401a"}
+28-11-2019:14:42:17,946 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "POST /session/9fa2895b58237bb13d4acd3bd119401a/element/0.11142871263185428-1/element HTTP/1.1" 200 103
+28-11-2019:14:42:17,947 DEBUG   [remote_connection.py:440] Finished Request
+28-11-2019:14:42:17,947 DEBUG   [remote_connection.py:388] GET http://127.0.0.1:58879/session/9fa2895b58237bb13d4acd3bd119401a/element/0.11142871263185428-2/attribute/innerHTML {"name": "innerHTML", "id": "0.11142871263185428-2", "sessionId": "9fa2895b58237bb13d4acd3bd119401a"}
+28-11-2019:14:42:17,959 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "GET /session/9fa2895b58237bb13d4acd3bd119401a/element/0.11142871263185428-2/attribute/innerHTML HTTP/1.1" 200 47871
+28-11-2019:14:42:17,960 DEBUG   [remote_connection.py:440] Finished Request
+28-11-2019:14:42:17,974 DEBUG   [remote_connection.py:388] DELETE http://127.0.0.1:58879/session/9fa2895b58237bb13d4acd3bd119401a/window {"sessionId": "9fa2895b58237bb13d4acd3bd119401a"}
+28-11-2019:14:42:18,50 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "DELETE /session/9fa2895b58237bb13d4acd3bd119401a/window HTTP/1.1" 200 72
+28-11-2019:14:42:18,51 DEBUG   [remote_connection.py:440] Finished Request
+28-11-2019:14:42:18,51 DEBUG   [FeedTest.py:22] Test: True
