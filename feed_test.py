@@ -15,11 +15,11 @@ class FeedTest(unittest.TestCase):
 
     def test_run(self):
         main = Main()
-        res = main.gettaglist('beach')
-        print(res)
-        result = True
-        self.assertEquals(True, result)
-        logging.debug('Test: {}'.format(result))
+        tags = main.get_tag_list('beach')
+        self.assertEquals(True, len(tags) > 1)
+
+        logging.debug('Test: length {}'.format(len(tags)))
+        logging.debug('\n'.join(set(tag['src'] for tag in tags)))
 
 
 if __name__ == '__main__':

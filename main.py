@@ -5,32 +5,35 @@ import time
 
 
 class Main(object):
-    opts = Options()
-    browser = None
+    _url = 'https://www.instagram.com/explore/tags'
+    _opts = Options()
+    _browser = None
 
     def __init__(self):
-        self.opts.add_argument("--headless")
-
-        self.browser = webdriver.Chrome(
+        self._opts.add_argument("--headless")
+        self._browser = webdriver.Chrome(
             executable_path=r"./chromedriver.exe",
-            options=self.opts
+            options=self._opts
         )
 
-    def gettaglist(self, tag=None):
+    def get_tag_list(self, tag=None):
+        """
+        image list based in tag
+        :param tag
+        :rtype: list
+        """
         if tag is None:
-            raise Exception('tag is required')
+            raise Exception('Tag is required.')
 
-        self.browser.get("https://www.instagram.com/explore/tags/boobs")
+        self._browser.get('{0}/{1}'.format(self._url, tag))
 
-        time.sleep(2)
+        time.sleep(1)
 
-        lst = self.browser.find_element_by_class_name("KC1QD")
+        lst = self._browser.find_element_by_class_name("KC1QD")
         res = lst.find_element_by_xpath('//*[@id="react-root"]/section/main/article/div').get_attribute("innerHTML")
         soup = BeautifulSoup(res, "html.parser")
         tags = soup.findAll('img')
 
-        print('\n'.join(set(tag['src'] for tag in tags)))
+        self._browser.close()
 
-        self.browser.close()
-
-        return 'ok'
+        return tags

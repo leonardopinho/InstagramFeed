@@ -1,20 +1,29 @@
-28-11-2019:14:42:10,877 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58879/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
-28-11-2019:14:42:10,877 DEBUG   [connectionpool.py:205] Starting new HTTP connection (1): 127.0.0.1:58879
-28-11-2019:14:42:12,432 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "POST /session HTTP/1.1" 200 829
-28-11-2019:14:42:12,432 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:42:12,433 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58879/session/9fa2895b58237bb13d4acd3bd119401a/url {"url": "https://www.instagram.com/explore/tags/boobs", "sessionId": "9fa2895b58237bb13d4acd3bd119401a"}
-28-11-2019:14:42:15,909 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "POST /session/9fa2895b58237bb13d4acd3bd119401a/url HTTP/1.1" 200 72
-28-11-2019:14:42:15,910 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:42:17,911 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58879/session/9fa2895b58237bb13d4acd3bd119401a/element {"using": "class name", "value": "KC1QD", "sessionId": "9fa2895b58237bb13d4acd3bd119401a"}
-28-11-2019:14:42:17,927 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "POST /session/9fa2895b58237bb13d4acd3bd119401a/element HTTP/1.1" 200 103
-28-11-2019:14:42:17,927 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:42:17,928 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:58879/session/9fa2895b58237bb13d4acd3bd119401a/element/0.11142871263185428-1/element {"using": "xpath", "value": "//*[@id=\"react-root\"]/section/main/article/div", "id": "0.11142871263185428-1", "sessionId": "9fa2895b58237bb13d4acd3bd119401a"}
-28-11-2019:14:42:17,946 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "POST /session/9fa2895b58237bb13d4acd3bd119401a/element/0.11142871263185428-1/element HTTP/1.1" 200 103
-28-11-2019:14:42:17,947 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:42:17,947 DEBUG   [remote_connection.py:388] GET http://127.0.0.1:58879/session/9fa2895b58237bb13d4acd3bd119401a/element/0.11142871263185428-2/attribute/innerHTML {"name": "innerHTML", "id": "0.11142871263185428-2", "sessionId": "9fa2895b58237bb13d4acd3bd119401a"}
-28-11-2019:14:42:17,959 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "GET /session/9fa2895b58237bb13d4acd3bd119401a/element/0.11142871263185428-2/attribute/innerHTML HTTP/1.1" 200 47871
-28-11-2019:14:42:17,960 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:42:17,974 DEBUG   [remote_connection.py:388] DELETE http://127.0.0.1:58879/session/9fa2895b58237bb13d4acd3bd119401a/window {"sessionId": "9fa2895b58237bb13d4acd3bd119401a"}
-28-11-2019:14:42:18,50 DEBUG   [connectionpool.py:393] http://127.0.0.1:58879 "DELETE /session/9fa2895b58237bb13d4acd3bd119401a/window HTTP/1.1" 200 72
-28-11-2019:14:42:18,51 DEBUG   [remote_connection.py:440] Finished Request
-28-11-2019:14:42:18,51 DEBUG   [FeedTest.py:22] Test: True
+29-11-2019:08:37:58,657 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:51139/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+29-11-2019:08:37:58,657 DEBUG   [connectionpool.py:205] Starting new HTTP connection (1): 127.0.0.1:51139
+29-11-2019:08:38:01,555 DEBUG   [connectionpool.py:393] http://127.0.0.1:51139 "POST /session HTTP/1.1" 200 830
+29-11-2019:08:38:01,556 DEBUG   [remote_connection.py:440] Finished Request
+29-11-2019:08:38:01,556 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:51139/session/1f54d7abb730ee6a435fc1f648c51196/url {"url": "https://www.instagram.com/explore/tags/beach", "sessionId": "1f54d7abb730ee6a435fc1f648c51196"}
+29-11-2019:08:38:16,22 DEBUG   [connectionpool.py:393] http://127.0.0.1:51139 "POST /session/1f54d7abb730ee6a435fc1f648c51196/url HTTP/1.1" 200 72
+29-11-2019:08:38:16,23 DEBUG   [remote_connection.py:440] Finished Request
+29-11-2019:08:38:17,24 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:51139/session/1f54d7abb730ee6a435fc1f648c51196/element {"using": "class name", "value": "KC1QD", "sessionId": "1f54d7abb730ee6a435fc1f648c51196"}
+29-11-2019:08:38:17,135 DEBUG   [connectionpool.py:393] http://127.0.0.1:51139 "POST /session/1f54d7abb730ee6a435fc1f648c51196/element HTTP/1.1" 200 103
+29-11-2019:08:38:17,135 DEBUG   [remote_connection.py:440] Finished Request
+29-11-2019:08:38:17,135 DEBUG   [remote_connection.py:388] POST http://127.0.0.1:51139/session/1f54d7abb730ee6a435fc1f648c51196/element/0.03010456234982839-1/element {"using": "xpath", "value": "//*[@id=\"react-root\"]/section/main/article/div", "id": "0.03010456234982839-1", "sessionId": "1f54d7abb730ee6a435fc1f648c51196"}
+29-11-2019:08:38:17,159 DEBUG   [connectionpool.py:393] http://127.0.0.1:51139 "POST /session/1f54d7abb730ee6a435fc1f648c51196/element/0.03010456234982839-1/element HTTP/1.1" 200 103
+29-11-2019:08:38:17,160 DEBUG   [remote_connection.py:440] Finished Request
+29-11-2019:08:38:17,160 DEBUG   [remote_connection.py:388] GET http://127.0.0.1:51139/session/1f54d7abb730ee6a435fc1f648c51196/element/0.03010456234982839-2/attribute/innerHTML {"name": "innerHTML", "id": "0.03010456234982839-2", "sessionId": "1f54d7abb730ee6a435fc1f648c51196"}
+29-11-2019:08:38:17,179 DEBUG   [connectionpool.py:393] http://127.0.0.1:51139 "GET /session/1f54d7abb730ee6a435fc1f648c51196/element/0.03010456234982839-2/attribute/innerHTML HTTP/1.1" 200 17521
+29-11-2019:08:38:17,180 DEBUG   [remote_connection.py:440] Finished Request
+29-11-2019:08:38:17,185 DEBUG   [remote_connection.py:388] DELETE http://127.0.0.1:51139/session/1f54d7abb730ee6a435fc1f648c51196/window {"sessionId": "1f54d7abb730ee6a435fc1f648c51196"}
+29-11-2019:08:38:17,279 DEBUG   [connectionpool.py:393] http://127.0.0.1:51139 "DELETE /session/1f54d7abb730ee6a435fc1f648c51196/window HTTP/1.1" 200 72
+29-11-2019:08:38:17,280 DEBUG   [remote_connection.py:440] Finished Request
+29-11-2019:08:38:17,280 DEBUG   [feed_test.py:21] Test: length 9
+29-11-2019:08:38:17,280 DEBUG   [feed_test.py:22] https://instagram.fssa2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c0.1.1440.1440a/s640x640/72238606_722071078314722_3332858977860203949_n.jpg?_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=102&oh=fa1e4273bdfd4b374e6cfc814df59e37&oe=5E78F3A7
+https://instagram.fssa2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c0.169.1349.1349a/s640x640/74616030_263094067981615_9178331429496699143_n.jpg?_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=1&oh=442d994b54538262de47f6cd493c0692&oe=5E894C6A
+https://instagram.fssa2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c0.168.1350.1350a/s640x640/74642773_105627914161876_188097382131180954_n.jpg?_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=104&oh=e419aa5eb2305c94990a0029257974d5&oe=5E77356F
+https://instagram.fssa2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c0.159.1383.1383a/s640x640/79372673_249468649349309_9205881053992350399_n.jpg?_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=1&oh=db5d3b93669b12c9903fa5c0620939d1&oe=5E79B9E4
+https://instagram.fssa2-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c180.0.1080.1080a/s640x640/70538309_1425164104310363_6834315234902313247_n.jpg?_nc_ht=instagram.fssa2-2.fna.fbcdn.net&_nc_cat=111&oh=b11d0b2eb0e05311f9cdef9e32c36e2e&oe=5E7FD689
+https://instagram.fssa2-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c124.0.831.831a/s640x640/74910863_101606627960543_5763855805249335359_n.jpg?_nc_ht=instagram.fssa2-2.fna.fbcdn.net&_nc_cat=111&oh=eef15d278703d741a8c70c26b7efc1e4&oe=5E665168
+https://instagram.fssa2-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c0.94.1289.1289a/s640x640/70789349_275961960030144_8207776586511550915_n.jpg?_nc_ht=instagram.fssa2-2.fna.fbcdn.net&_nc_cat=100&oh=f1653e0618d22422b1a28b7138334f15&oe=5E659C61
+https://instagram.fssa2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c0.135.1080.1080a/s640x640/74647496_447842379213474_7410782600037394343_n.jpg?_nc_ht=instagram.fssa2-1.fna.fbcdn.net&_nc_cat=1&oh=2a6bb1ca9f34af78a1589bd5f654fa1f&oe=5E6F6F75
+https://instagram.fssa2-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c0.180.1440.1440a/s640x640/75595303_154348165932931_984681283658442299_n.jpg?_nc_ht=instagram.fssa2-2.fna.fbcdn.net&_nc_cat=107&oh=910b9926c57721da946f84074e2a48b7&oe=5E7BF441
