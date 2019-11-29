@@ -1,6 +1,7 @@
 import unittest
 import logging
 from main import Main
+import platform
 
 logging.basicConfig(
     filename="log/test.log",
@@ -15,11 +16,15 @@ class FeedTest(unittest.TestCase):
 
     def test_run(self):
         main = Main()
-        tags = main.get_tag_list('beach')
-        self.assertEquals(True, len(tags) > 1)
+        logging.debug('System: {}'.format(platform.system()))
 
-        logging.debug('Test: length {}'.format(len(tags)))
-        logging.debug('\n'.join(set(tag['src'] for tag in tags)))
+        if platform.system().__contains__('Windows'):
+            tags = main.get_tag_list('beach')
+            self.assertEqual(True, len(tags) > 1)
+            logging.debug('Test: length {}'.format(len(tags)))
+            logging.debug('\n'.join(set(tag['src'] for tag in tags)))
+        else:
+            self.assertEqual(platform.system().__contains__('Windows'), False)
 
 
 if __name__ == '__main__':

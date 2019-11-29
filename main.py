@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
+import platform
 import time
 
 
@@ -11,10 +12,11 @@ class Main(object):
 
     def __init__(self):
         self._opts.add_argument("--headless")
-        self._browser = webdriver.Chrome(
-            executable_path=r"./chromedriver.exe",
-            options=self._opts
-        )
+        if platform.system().__contains__('Windows'):
+            self._browser = webdriver.Chrome(
+                executable_path=r"./webdriver/windows/chromedriver.exe",
+                options=self._opts
+            )
 
     def get_tag_list(self, tag=None):
         """
