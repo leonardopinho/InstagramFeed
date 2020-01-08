@@ -19,7 +19,8 @@ class FeedTest(unittest.TestCase):
         logging.debug('System: {}'.format(platform.system()))
 
         if platform.system().__contains__('Windows'):
-            tags = main.get_tag_list('beach')
+            tags = main.get_tag_list('ecvitoria')
+            print(tags)
             self.assertEqual(True, len(tags) > 1)
             logging.debug('Test: length {}'.format(len(tags)))
             logging.debug('\n'.join(set(tag['src'] for tag in tags)))
