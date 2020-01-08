@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e8572f5-e44c-45e7-aa5f-81d7a3e91258" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +133,8 @@
       <workItem from="1576759488999" duration="55000" />
       <workItem from="1576759701069" duration="653000" />
       <workItem from="1576767230248" duration="1507000" />
-      <workItem from="1578502493751" duration="193000" />
+      <workItem from="1578502493751" duration="244000" />
+      <workItem from="1578502878953" duration="375000" />
     </task>
     <servers />
   </component>
@@ -139,31 +142,31 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1578502688753">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1578502737752">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576778034046" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578502688753" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1578502688753">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578502737752" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1578502737752">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576778034046" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578502688753" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1578502688752">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578502737752" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1578502737751">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576778034046" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578502688752" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1578502688753">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578502737751" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1578502737752">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576778034046" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578502688753" />
-    <state x="655" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1578502504505">
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578502737752" />
+    <state x="655" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1578502929975">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="655" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576767242278" />
-    <state x="655" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578502504505" />
+    <state x="655" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578502929975" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/InstagramFeed$pytest_in_feed_test_py.coverage" NAME="pytest in feed_test.py Coverage Results" MODIFIED="1578502688732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
